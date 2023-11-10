@@ -1,0 +1,94 @@
+<!--/*
+    Copyright 2015 Adobe Systems Incorporated
+  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+  
+        http://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            <h1>toll brothers header</h1>
+        </title>
+        <style>
+.header-logo {
+    /* text-align: center; */
+    padding: 5px;
+    color: white;
+    margin: 1px 100px 1px 1px;
+}
+
+.header-logo img {
+    max-width: 150px;
+    color: white;
+}
+.header-menu{
+     text-align: right;
+     margin-top: 10px;
+     color: black;
+}
+.header-menu li {
+     display: inline;
+     margin: 0 5px;
+     color: black;
+     margin: 1px 100px 1px 1px;
+}
+.header-menu a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  color: black;
+
+  border: solid;
+  border-radius: 25px;
+  
+}
+
+.button:hover {background-color: white}
+
+.button:active {
+  background-color: white;
+ 
+  transform: translateY(4px);
+}
+</style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="header-logo">
+                    <a href="#">
+                    </a>
+                </div>
+            <ul class="header-menu">
+                <li><img height="39" width="200" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/toll_logo.svg" alt="Toll Brothers Logo"/></li>
+               
+                <li><a href="#">${properties.title}</a></li>
+                <li><a href="#">${properties.description}</a></li>
+                <li><a href="#">${properties.alt}</a></li>
+                <li><a href="#">${properties.image}</a></li>
+                <li><button class="button">${properties.search}</button></li>
+            </ul>
+            </nav>
+        </header>
+    </body>
+</html>
+
+<!--/* <div data-sly-resource="${'body-header' @ resourceType = '/apps/tollbrothers/components/header'}"></div> */-->

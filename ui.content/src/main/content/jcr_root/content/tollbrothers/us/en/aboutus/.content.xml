@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2023-11-10T16:07:21.103+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/tollbrothers/settings/wcm/templates/tollbrothers-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About Us"
+        sling:resourceType="tollbrothers/components/tollbrothers-page"
+        pageTitle="About Us">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="tollbrothers/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2023-11-06T12:31:39.530+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-11-06T12:31:48.491+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tollbrothers/components/container">
+                <tollbrothersheader
+                    jcr:created="{Date}2023-11-10T15:34:21.458+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-10T16:02:18.008+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/tollbrothersheader"
+                    text="Toll brothers advantage"
+                    text1="about us"/>
+                <tollbrothers1
+                    jcr:created="{Date}2023-11-10T15:34:32.446+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-10T15:34:32.446+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/tollbrothers1"/>
+                <tollbrothers2
+                    jcr:created="{Date}2023-11-10T15:35:19.070+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-10T15:35:19.070+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/tollbrothers2"/>
+                <tollbrothers3
+                    jcr:created="{Date}2023-11-10T15:35:28.460+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-10T15:35:28.460+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/tollbrothers3"/>
+                <tollbrothers4
+                    jcr:created="{Date}2023-11-10T15:35:39.375+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-10T15:35:39.375+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/tollbrothers4"/>
+                <tollbrothers5
+                    jcr:created="{Date}2023-11-10T15:35:49.393+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-10T15:35:49.393+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/tollbrothers5"/>
+                <tollbrothersfooter
+                    jcr:created="{Date}2023-11-10T15:36:04.573+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-10T15:36:04.573+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/tollbrothersfooter"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

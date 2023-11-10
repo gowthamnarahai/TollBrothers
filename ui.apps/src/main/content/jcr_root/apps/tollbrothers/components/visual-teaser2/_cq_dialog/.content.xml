@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <textarea1
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Text Area1"
+                        name="./textArea1"
+                        value="The Toll Brothers  Builds communities in the heart of where you want to live."/>
+                    <textarea2
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Text Area2"
+                        name="./textArea2"
+                        value="You can see it in the details and feel it in the craftsmanship from the moment you walk into a Toll Brothers home: this is where form meets function in exquisite fashion."/>
+                    <textarea3
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Text Area3"
+                        name="./textArea3"
+                        text="You can see it in the details and feel it in the craftsmanship from the moment you walk into a Toll Brothers home: this is where form meets function in exquisite fashion."
+                        value=""/>
+                    <textarea4
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Text Area4"
+                        name="./textArea4"
+                        text="We are here to deliver an experience beyond compare and to exceed your expectations at every turn."/>
+                    <textheader
+                        jcr:primaryType="nt:unstructured"
+                        sling:orderBefore="textarea1"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Text Header"
+                        name="./textHeader"
+                        value="&quot;The Toll Brothers Advantage&quot;"/>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

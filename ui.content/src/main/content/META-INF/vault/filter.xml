@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/tollbrothers" mode="merge"/>
+    <filter root="/content/tollbrothers" mode="merge"/>
+    <filter root="/content/dam/tollbrothers" mode="merge"/>
+    <filter root="/content/experience-fragments/tollbrothers" mode="merge"/>
+</workspaceFilter>

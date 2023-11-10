@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+
+/* ======================view=================== */
+/* Base styles apply to all devices */
+.XPrqW {
+  text-align: center;
+  padding: 20px;
+}
+
+.QRV92 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.P6JSh {
+  flex-basis: 22%; /* Adjust the percentage to control the width of the items */
+  margin-bottom: 20px;
+}
+
+.TollAdvantage_icon__Viqa1 img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 600px) {
+  .TollAdvantage_callout_item__P6JSh {
+    flex-basis: 100%; /* Each item takes full width on mobile */
+    margin-bottom: 15px;
+  }
+
+  .QRV92 {
+    flex-direction: column;
+  }
+
+  .TollAdvantage_icon__Viqa1 img {
+    width: 25px; /* Adjust image size for mobile */
+  }
+}
+
+/* Tablet view */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .TollAdvantage_callout_item__P6JSh {
+    flex-basis: 48%; /* Two items per row on tablets */
+  }
+
+  .TollAdvantage_icon__Viqa1 img {
+    width: 30px; /* Adjust image size for tablets */
+  }
+}
+
+/* Laptop and Desktop view */
+@media only screen and (min-width: 1025px) {
+  .TollAdvantage_callout_item__P6JSh {
+    flex-basis: 23%; /* Four items per row on large screens */
+  }
+
+  .TollAdvantage_icon__Viqa1 img {
+    width: 37px; /* Adjust image size for large screens */
+  }
+}
+
+/* ==============view complete=================== */
+
+
+.XPrqW {
+    position: relative;
+    background-color: #fff;
+    z-index: 4;
+    padding: 0 5%;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-size: 1em;
+    font-family: Gotham,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #080808;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+.XPrqW h2 {
+    font-size: 2.5em;
+    margin: 50px auto 70px;
+    color: #0c223f;
+    font-weight: 300;
+    text-align: center;
+}
+h2{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+h1, h2, h3 {
+    font-family: Domaine,Gotham,sans-serif;
+    letter-spacing: .3px;
+}
+.XPrqW .QRV92 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.XPrqW .QRV92 {
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    background: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+.XPrqW .QRV92 .P6JSh {
+    position: relative;
+    width: 40px;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+
+a, a:hover, a:visited:hover {
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+a {
+    color: inherit;
+}
+a {
+    background-color: transparent;
+}
+
+.XPrqW .QRV92 .P6JSh:after {
+    display: none;
+    position: absolute;
+    height: 50%;
+    width: 1px;
+    top: 25%;
+    right: 0;
+    background: #e0e0e0;
+}
+.XPrqW .QRV92 .P6JSh h3 {
+    margin-bottom: 10px;
+    color: #8195a2;
+    font-family: Gotham,sans-serif;
+    font-size: .84em;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 1.5em;
+}
+h1, h2, h3 {
+    letter-spacing: .3px;
+}
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.XPrqW .QRV92 .P6JSh p {
+    max-width: 360px;
+    margin: 0 auto;
+    line-height: 1.8em;
+}
+ p {
+    font-family: Gotham Narrow,sans-serif;
+    font-size: 1em;
+}
+p{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+span{
+    background: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.XPrqW .QRV92 .P6JSh span {
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    color: #1a7dc9;
+    font-size: .6em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.XPrqW .QRV92 .P6JSh span:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    margin-top: 3px;
+    background: #0070cd;
+    transition: width .4s ease;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<section class="XPrqW">
+    <h2>${properties.textHeader}</h2>
+    <div class="QRV92">
+        <a class="P6JSh" title="Prestigious Locations" href="https://www.tollbrothers.com/advantage#location">
+            <div class="TollAdvantage_icon__Viqa1">
+                <img height="25" width="37" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/searchmapthinicon_blue.svg" alt="prestigious locations">
+            </div>
+            <h3>prestigious<br>locations</h3>
+            <p>${properties.textArea1}</p>
+            <span>learn more</span>
+        </a>
+        <a class="P6JSh" title="Distinctive Architecture" href="https://www.tollbrothers.com/advantage#architecture">
+            <div class="TollAdvantage_icon__Viqa1">
+                <img height="25" width="36" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/archicon_blue.svg" alt="Distinctive Architecture">
+            </div>
+            <h3>distinctive<br>architecture</h3>
+            <p>${properties.textArea2}</p>
+            <span>learn more</span>
+        </a>
+        <a class="P6JSh" title="Unrivaled Choice" href="https://www.tollbrothers.com/advantage#choice">
+            <div class="TollAdvantage_icon__Viqa1">
+                <img height="25" width="29" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/check_blue.svg" alt="Unrivaled Choice">
+            </div>
+            <h3>unrivaled<br>choice</h3>
+            <p>${properties.textArea3}</p>
+            <span>learn more</span>
+        </a>
+        <a class="P6JSh" title="Extraordinary Customer Experience" href="https://www.tollbrothers.com/advantage#experience">
+            <div class="TollAdvantage_icon__Viqa1">
+                <img height="25" width="33" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/serviceicon_blue.svg" alt="Extraordinary Customer Experience">
+            </div>
+            <h3>extraordinary<br>customer experience</h3>
+            <p>${properties.textArea4}</p>
+            <span>learn more</span>
+        </a>
+    </div>
+</section>
+</body>
+</html>

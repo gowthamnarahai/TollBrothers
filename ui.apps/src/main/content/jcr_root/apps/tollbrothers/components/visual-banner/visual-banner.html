@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fall Savings Event</title>
+<style>
+.banner-container {
+  background-color: #f01515; /* Red background color */
+  padding: 20px;
+  display: flex; /* Enable Flexbox */
+  justify-content: space-between; /* Equal space between the items */
+  align-items: center; /* Center flex items vertically */
+}
+
+.logo-container img {
+  width: 22vw; /* Adjust as needed */
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.banner-title {
+  font-size: 24px; /* Adjust as needed */
+  color: #fff;
+  font-family: Domaine,Gotham,sans-serif;
+  font-weight: 300;
+  letter-spacing: .3px;
+  position: relative;
+  text-align: center;
+
+
+}
+
+.banner-square {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  background-color: #000; /* Black color */
+}
+
+.text-container {
+  color:white;
+  font-size: 16px;
+  font-family: Gotham,sans-serif;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: .3px;
+  flex-grow: 1; /* Allows the text container to grow and fill available space */
+  text-align: center; /* Align text to the left */
+  padding: 0 15px; /* Add padding to maintain equal space */
+}
+
+.button-container {
+    margin: 0 auto;
+    font-weight: 500;
+    columns: white;
+    font: 13px Gotham,sans-serif;
+    padding:16px 26px; 
+    background-color: #0d223f   
+}
+
+.button {
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline from links */
+  display: inline-block; /* Allow padding and border-radius to take effect */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .banner-container {
+    padding: 40px 0 30px;
+    overflow: hidden;
+  }
+
+  .logo-container,
+  .text-container,
+  .button-container {
+    margin: 10px 0; /* Space above and below each container */
+  }
+  
+  .text-container, .button-container {
+    padding: 0; /* Remove padding on smaller screens */
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="banner-container">
+  <div class="logo-container">
+    <img src="https://tollbrothers-static-public.s3.amazonaws.com/sites/comtollbrotherswww/logos/toll_logo_white_notag.svg" alt="Toll Brothers Fall Saving Event">
+    <div class="banner-title"><span>${properties.textSpan}</span></div>
+    <div class="banner-date">&nbsp;</div>
+
+  </div>
+  <!-- Currently empty, can be used for date or removed if not needed -->
+  <!-- <div class="banner-square"></div> This represents the square. Adjust size and color as needed -->
+
+  <div class="text-container">
+    <div class="date">${properties.textCenter}</div>
+  </div>
+
+  <div class="button-container">
+    <div class="button">${properties.textBtn}</div>
+  </div>
+</div>
+
+</body>
+</html>

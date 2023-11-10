@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2023-11-10T15:59:27.958+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/tollbrothers/settings/wcm/templates/toll-brothers"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About us"
+        sling:resourceType="tollbrothers/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="tollbrothers/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tollbrothers/components/container"
+                layout="responsiveGrid"/>
+            <container_1804731220
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tollbrothers/components/container">
+                <_x0031__1699001761135
+                    jcr:primaryType="nt:unstructured"
+                    behavior="hide"/>
+                <responsivegrid
+                    jcr:created="{Date}2023-11-03T14:27:21.130+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-03T14:27:21.130+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <text
+                        jcr:created="{Date}2023-11-07T16:00:05.371+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-07T17:47:16.904+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Toll Brothers, an award-winning Fortune 500 company founded in 1967, is the nation's leading builder of luxury homes. Embracing an unwavering commitment to quality and customer service, Toll Brothers currently builds in 24 states nationwide, and is a publicly owned company with its common stock listed on the New York Stock Exchange (NYSE: TOL). Toll Brothers was named the World's Most Admired Homebuilder in Fortune magazine's 2023 survey of the World's Most Admired Companies®, the eighth year it has been so honored.* Toll Brothers has also been named Builder of the Year by Builder magazine and is the first two-time recipient of Builder of the Year from Professional Builder magazine.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="7"/>
+                        </cq:responsive>
+                    </text>
+                    <image
+                        jcr:created="{Date}2023-11-03T15:59:33.897+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-07T17:09:26.097+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileReference="/content/dam/toll-brothers/TB logo1.png"
+                        height="0"
+                        width="350">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="newline"
+                                offset="4"
+                                width="3"/>
+                        </cq:responsive>
+                    </image>
+                    <image_1239138288
+                        jcr:created="{Date}2023-11-03T16:04:40.515+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T16:07:51.555+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileReference="/content/dam/toll-brothers/TB logo1.png"
+                        width="300">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="newline"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </image_1239138288>
+                    <image_1904838904
+                        jcr:created="{Date}2023-11-03T16:06:24.432+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T16:08:06.065+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileReference="/content/dam/toll-brothers/TB logo1.png"
+                        width="300">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </image_1904838904>
+                    <image_1370642562
+                        jcr:created="{Date}2023-11-03T16:06:42.863+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T16:08:15.328+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileReference="/content/dam/toll-brothers/TB logo1.png"
+                        width="300">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </image_1370642562>
+                    <image_1451901394
+                        jcr:created="{Date}2023-11-08T14:29:23.923+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-08T14:29:50.035+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileName="TB logo1.png"
+                        width="{Long}300">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="{Long}0"
+                                width="{Long}3"/>
+                        </cq:responsive>
+                        <file/>
+                    </image_1451901394>
+                    <text_1921824838
+                        jcr:created="{Date}2023-11-07T17:15:59.582+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-07T17:17:32.605+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="tollbrothers/components/text"
+                        text="&lt;h2>Company History&lt;/h2>&#xa;&lt;h2>&amp;nbsp;&lt;/h2>&#xa;&lt;h2>&amp;nbsp;&lt;/h2>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </text_1921824838>
+                    <image_1068230806
+                        jcr:created="{Date}2023-11-03T16:40:11.926+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T16:40:14.410+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileReference="/content/dam/toll-brothers/TB image1.jpg">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="5"/>
+                        </cq:responsive>
+                    </image_1068230806>
+                    <text_797541023
+                        jcr:created="{Date}2023-11-03T16:42:10.256+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T20:12:55.605+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>TOLL BROTHERS STORY&lt;/b>&lt;/p>&#xa;&lt;p>We love to say that our pride is palpable. Not only are we proud of the superior quality luxury homes we build, we're proud of the legacy we've crafted within the home building industry.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </text_797541023>
+                    <text_1871660814
+                        jcr:created="{Date}2023-11-03T16:43:52.821+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T20:13:01.028+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>A NEW ERA&lt;/b>&lt;/p>&#xa;&lt;p>After building homes in Pennsylvania for nearly a decade, Toll Brothers breaks ground on its first large master planned community concept following the completion of the newly connected I-95 corridor to New York City, transforming Bucks County, PA into a bedroom community.&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </text_1871660814>
+                    <text_1165821622
+                        jcr:created="{Date}2023-11-03T16:45:14.055+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T20:13:07.797+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>1,000 HAPPY HOMEOWNERS&lt;/b>&lt;/p>&#xa;&lt;p>Toll Brothers sells its 1,000th&amp;nbsp;home.&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="none"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </text_1165821622>
+                    <textimage
+                        jcr:created="{Date}2023-11-03T16:48:47.401+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T20:10:37.878+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/textimage"
+                        alignment="left"
+                        text="&lt;p>&lt;b>OUR STORY BEGINS&lt;/b>&lt;/p>&#xa;&lt;p>Toll Brothers is founded by Bob and Bruce Toll in southeastern Pennsylvania. Inspired by their father, a home builder, the brothers build their first two homes, colonials.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <image
+                            jcr:lastModified="{Date}2023-11-03T18:16:34.886+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            fileReference="/content/dam/toll-brothers/TB image2.jpg"
+                            height="0"
+                            width="0"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="newline"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </textimage>
+                    <textimage_1805658718
+                        jcr:created="{Date}2023-11-03T18:08:51.361+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T20:13:55.964+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/textimage"
+                        text="&lt;p>&lt;b>CROSSING THE BORDER&lt;/b>&lt;/p>&#xa;&lt;p>Toll Brothers makes its first move out of Pennsylvania, entering neighboring state New Jersey.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <image
+                            jcr:lastModified="{Date}2023-11-03T18:09:10.871+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            fileReference="/content/dam/toll-brothers/TB image3.jpg"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </textimage_1805658718>
+                    <textimage_718570918
+                        jcr:created="{Date}2023-11-03T18:10:24.264+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T20:11:25.981+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/textimage"
+                        text="&lt;p>&lt;b>GOING PUBLIC&lt;/b>&lt;/p>&#xa;&lt;p>Toll Brothers becomes a public company, and is listed on the New York Stock Exchange (NYSE: TOL) with revenues of $124.6 million from 15 communities.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <image
+                            jcr:lastModified="{Date}2023-11-03T18:10:33.094+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            fileReference="/content/dam/toll-brothers/TB image4.jpg"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </textimage_718570918>
+                    <image_1159567690
+                        jcr:created="{Date}2023-11-03T18:33:17.358+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-07T17:50:46.388+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileReference="/content/dam/toll-brothers/TB image5.jpg"
+                        height="900"
+                        width="600">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="none"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </image_1159567690>
+                    <text_1938517891
+                        jcr:created="{Date}2023-11-07T17:52:18.934+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-07T17:54:11.918+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="tollbrothers/components/text"
+                        text="&lt;h2>Quality Is at the Center of All We Do&lt;/h2>&#xa;&lt;p>From the homes we build to the talent we recruit, we know that to be the best, we have to work with the best.&lt;/p>&#xa;&lt;p>We invest in our employees because we want you to make the same investment in yourself. Love for your job doesn't happen in grandiose events, it happens in the every day. From accounting and architecture to hospitality and customer service, working here means doing work that you feel good about in an environment that you are proud to work in.&lt;/p>&#xa;&lt;p>&lt;b>Your Passions, Your Identity, Your Potential&lt;/b>&lt;/p>&#xa;&lt;p>We understand that you are more than Toll Brothers. Family, cultural background, interests, and hobbies make you who you are. The diverse perspective you bring strengthens and informs who we are as a company, and the skills you build outside of Toll Brothers are just as important as the skills you build inside. That's why we work hard to make sure every employee feels safe bringing their true and authentic self to work each day and where employees of all backgrounds are treated with fairness, dignity and respect.&lt;/p>&#xa;&lt;p>&lt;b>Build on Your Successes&lt;/b>&lt;/p>&#xa;&lt;p>As we grow, change, and adapt as a company, we want to embolden you with the support, technology, and education to do the same. We strive to empower you to take ownership over your career path, wherever that may lead. Building your career here offers you the opportunity to have your ideas heard, to see your contributions come to life, and to be rewarded with exceptional benefits.&lt;/p>&#xa;&lt;p>&lt;b>Our Commitment to Human Rights&lt;/b>&lt;/p>&#xa;&lt;p>Toll Brothers and its employees are committed to respecting human rights in accordance with the UN Guiding Principles on Business and Human Rights. As a part of this commitment, all employees regularly receive training on Toll Brothers Code of Ethics and Business Conduct policies. In addition, all subcontractors are required to formally commit to following all national and local laws as well as to adhere to Toll Brothers Code of Ethics and Business Conduct policies. Click&amp;nbsp;&lt;a href=&quot;https://investors.tollbrothers.com/~/media/Files/T/TollBrothers-IR/Attachments/2020-06-16_human_rights_policy_final.pdf&quot;>here&lt;/a>&amp;nbsp;to read our full Human Rights Policy.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="5"/>
+                        </cq:responsive>
+                    </text_1938517891>
+                    <image_1647326490
+                        jcr:created="{Date}2023-11-03T18:59:02.553+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-07T17:55:54.055+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileReference="/content/dam/toll-brothers/TB image6.jpg"
+                        height="0"
+                        width="300">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </image_1647326490>
+                    <image_48301670
+                        jcr:created="{Date}2023-11-03T19:01:32.902+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-07T17:56:04.648+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileReference="/content/dam/toll-brothers/Home community Borello Ranch.jpg"
+                        height="200"
+                        width="300">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </image_48301670>
+                    <text_2129394039
+                        jcr:created="{Date}2023-11-03T19:02:12.599+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-06T17:10:26.546+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b style=&quot;font-size: 1.0pc;&quot;>&amp;quot;Top employer. Best Builder. Most admired.&amp;quot;&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>We're flattered by these&amp;nbsp;&lt;a href=&quot;https://www.tollcareercenter.com/awards&quot;>accolades&lt;/a>&amp;nbsp;aand honored to be the recipient of some of the most coveted awards in the industry. Toll Brothers is known for building dream homes, but what we're most proud of is building you.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>inspire&amp;nbsp;&lt;b>quality&lt;/b>. Discover&amp;nbsp;&lt;b>possibility&lt;/b>. Build&amp;nbsp;&lt;b>you.&lt;/b>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="5"/>
+                        </cq:responsive>
+                    </text_2129394039>
+                    <image_1664269991
+                        jcr:created="{Date}2023-11-03T19:35:32.187+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T19:40:24.863+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileReference="/content/dam/toll-brothers/TB image7.jpg"
+                        height="500"
+                        width="700">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="none"
+                                offset="7"
+                                width="5"/>
+                        </cq:responsive>
+                    </image_1664269991>
+                    <text_2119912738
+                        jcr:created="{Date}2023-11-03T19:37:10.885+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-07T17:51:54.802+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/text"
+                        text="&lt;p>&lt;b>&amp;nbsp; &amp;nbsp;Building Communities&lt;/b>&lt;/p>&#xa;&lt;p>At Toll Brothers, we know that a community is made up of more than houses, and that it is only as strong as the people in it. When we build a new community, we believe in adding something vital to the area, something that measurably contributes to the lives within the community in a positive and dynamic way. We take our social responsibility to heart, and we believe in corporate community responsibility. That's why each member of our team takes an active role in giving back to the neighborhoods we build. This commitment is given life through Toll Brothers' ongoing involvement in local community organizations.&lt;/p>&#xa;&lt;p>Although Toll Brothers focuses on the individuals within each of our communities, we are a national company—our communities are homen to thousands of people in many regions of the country. With this in mind, we contribute to major regional and national organizations—such as the American Cancer Society, Habitat for Humanity, American Red Cross, March of Dimes, and others—among other corporate charities.&lt;/p>&#xa;&lt;p>&lt;b>Toll Brothers does more than just build houses—we build communities.&lt;/b>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </text_2119912738>
+                    <image_463819208
+                        jcr:created="{Date}2023-11-03T19:37:40.212+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T19:41:00.238+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileReference="/content/dam/toll-brothers/TB image10.jpg"
+                        height="500"
+                        width="700">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="5"/>
+                        </cq:responsive>
+                    </image_463819208>
+                    <container_copy jcr:primaryType="nt:unstructured"/>
+                    <image_1430661372
+                        jcr:created="{Date}2023-11-03T19:43:43.846+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-07T16:43:55.573+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileReference="/content/dam/toll-brothers/TB image8.jpg"
+                        height="0"
+                        width="700">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="7"/>
+                        </cq:responsive>
+                    </image_1430661372>
+                    <text_665161353
+                        jcr:created="{Date}2023-11-03T19:45:40.365+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T19:55:13.791+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/text"
+                        text="&lt;h2>&amp;nbsp;&lt;/h2>&#xa;&lt;h2>&amp;nbsp;&lt;/h2>&#xa;&lt;h2>Investing in Education&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>With a focus on the future, we include among our top priorities developing strong leaders, fostering a diverse workforce, and creating opportunity for all. Addressing inequities in education is an essential part of building a better future for individuals and&lt;/p>&#xa;&lt;p>society as a whole.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="5"/>
+                        </cq:responsive>
+                    </text_665161353>
+                    <image_1815516974
+                        jcr:created="{Date}2023-11-03T19:59:01.722+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-07T16:44:07.746+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileReference="/content/dam/toll-brothers/TB image9.jpg"
+                        height="0"
+                        width="700">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </image_1815516974>
+                    <text_2100130896
+                        jcr:created="{Date}2023-11-03T20:00:08.281+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T20:17:43.968+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/text"
+                        text="&lt;p>Toll Brothers partners with The Posse Foundation, a leadership development and college success organization that works to identify talented high school students across the United States who demonstrate exceptional potential to lead and excel. In service of The Posse Foundation's mission, Toll Brothers has committed all proceeds from the 2022 Toll Brothers Gala to benefit the organization, and is providing opportunities for Toll Brothers employees to volunteer with Posse.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Another excellent organization we support is YouthBuild, a nonprofit organization that helps &amp;quot;opportunity youth&amp;quot;-people between the ages of 16 and 24 who are neither in school nor employed-to become leaders in their communities. Program participants earn their high school equivalency or diploma, pursue professional certifications, and gain valuable work experience.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="5"/>
+                        </cq:responsive>
+                    </text_2100130896>
+                    <text_4215942
+                        jcr:created="{Date}2023-11-03T20:01:57.989+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-03T20:07:12.707+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/text"
+                        text="&lt;h2 style=&quot;margin-left: 40px;&quot;>Continuing a treasured tradition of music.&lt;/h2>&#xa;&lt;h2 style=&quot;margin-left: 40px;&quot;>&amp;nbsp;&lt;/h2>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>For nearly 20 years, Toll Brothers has been the main sponsor of the Metropolitan Opera Saturday Matinee Radio Broadcasts, the longest-running continuous classical music program in American radio history. The program began in 1931 and, since then, Metropolitan Opera has aired over 1,800 live broadcasts of nearly 200 different operas.&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>Today, the Met radio broadcasts are aired over the Toll Brothers-Metropolitan Opera International Radio Network, which comprises over 300 stations in the United States and reaches 11 million people in 42 countries around the globe.&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>&amp;nbsp;&lt;/p>&#xa;&lt;h2 style=&quot;margin-left: 40px;&quot;>Touching Lives Across the World&lt;/h2>&#xa;&lt;h2 style=&quot;margin-left: 40px;&quot;>&amp;nbsp;&lt;/h2>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>&lt;b>Toys for Tots&lt;/b>&lt;br>&#xa;Toll Brothers organizes annual collections in support of the Marine Toys for Tots program. In our divisions throughout the country, including Florida, New York, California, Nevada, and our Pennsylvania corporate headquarters, we purchase gift cards and new toys for families in need. Toll Brothers is honored to bring joy to many children (and their parents) each holiday season.&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>&lt;b>Operation Holidays from Home&lt;/b>&lt;br>&#xa;Operation Holidays from Home is a Toll Brothers initiative that benefits members of the military. Employees donate snacks, magazines, toiletries, and other creature comforts, then send them in care packages to units deployed away from home during the holiday season.&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>&lt;b>Seeds of Peace&lt;/b>&lt;br>&#xa;Each summer, the Seeds of Peace Camp program in Otisfield, Maine, offers a diverse group of young people from the United States, the Middle East, and South Asia the opportunity to form relationships, develop their leadership abilities, and build valuable communication skills as they address complex topics. Thus far, alumni number over 8,000 individuals representing 27 countries.&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>The Jane and Bob Toll Fund at Seeds of Peace provides vital support through scholarships and operational investments, and hundreds of Toll Brothers employees, associates, friends, and family devote a full day to preparing the Seeds of Peace campground for the summer season each year.&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>&lt;b>Fund the Cure Sponsorship&lt;/b>&lt;br>&#xa;It's no secret that we break a lot of ground, but we're doing our part for breakthroughs, too-breakthroughs in cancer research, to be exact. Toll Brothers proudly supports the American Cancer Society (ACS) in its mission to free the world from cancer through life-saving research. We have contributed more than $10 million to ACS to date: just one milestone of many still to come. Each year, the need for life-saving cancer research continues, and so does our devotion to the cause.&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>*©2023 Fortune Media IP Limited. All rights reserved. Used under license. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse the products or services of, Toll Brothers.&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>**From Fortune Magazine, March 1, 2016 ©2016 Time Inc. Fortune and The World's Most Admired Companies are registered trademarks of Time Inc. and are under license. Fortune and Time Inc. are not affiliated with, and do not endorse products or services of, Toll Brothers.&lt;/p>&#xa;&lt;p style=&quot;margin-left: 40px;&quot;>†From Fortune. ©2020 Fortune Media IP Limited. All rights reserved. Used under license. Fortune and The World's Most Admired Companies are registered trademarks of Fortune Media IP Limited and are used under license. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse the products or services of, Toll Brothers.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </responsivegrid>
+            </container_1804731220>
+        </root>
+    </jcr:content>
+</jcr:root>

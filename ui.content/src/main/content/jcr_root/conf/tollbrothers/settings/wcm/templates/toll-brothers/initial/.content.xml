@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/conf/tollbrothers/settings/wcm/templates/toll-brothers"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="tollbrothers/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="tollbrothers/components/container"
+            layout="responsiveGrid">
+            <container_1804731220
+                jcr:created="{Date}2023-11-03T12:13:36.909+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-11-03T12:37:36.831+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tollbrothers/components/container"/>
+        </root>
+    </jcr:content>
+</jcr:root>

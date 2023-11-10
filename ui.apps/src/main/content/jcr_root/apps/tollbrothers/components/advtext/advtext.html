@@ -1,0 +1,75 @@
+<div class="feature-list">
+    <div class="feature">
+        <img width="30" height="30" src="	https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/searchmapthinicon.svg" alt="Map icon">
+        <p>PRESTIGIOUS </br>LOCATIONS</p>
+    </div>
+    <div class="feature">
+        <img width="20" height="20" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/archicon.svg" alt="Arch icon">
+        <p>DISTINCTIVE </br>ARCHITECTURE</p>
+    </div>
+    <div class="feature">
+        <img width="20" height="20" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/check_grey.svg" alt="Check icon">
+        <p>UNRIVALED </br>CHOICE</p>
+    </div>
+    <div class="feature">
+        <img width="20" height="20" src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/svg/serviceicon_grey.svg" alt="Service icon">
+        <p>EXTRAORDINARY CUSTOMER EXPERIENCE</p>
+    </div>
+</div>
+
+<style>
+    .feature-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height:100px;
+    padding-top:55px;
+    padding-bottom: 30px;;
+    margin: 0 auto;
+}
+
+.feature {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.feature {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 10px 0; /* Add margin to the top and bottom */
+    height: 80px; /* Increase the height to 80px or adjust to your preferred height */
+}
+
+.feature:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-right: 1px solid #ccc; /* Vertical line */
+}
+
+.feature img {
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.feature p {
+    font-size: 0.9rem;
+    color: #007BFF;  /* Blue color */
+    margin: 0;
+    font-weight: bold;  /* Bolder letters */
+    text-transform: uppercase; /* Capitalized letters */
+    letter-spacing: 1px; /* Slight spacing between letters for emphasis */
+}
+
+</style>

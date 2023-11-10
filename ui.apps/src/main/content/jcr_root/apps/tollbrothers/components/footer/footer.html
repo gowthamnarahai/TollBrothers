@@ -1,0 +1,125 @@
+<!--/*
+    Copyright 2015 Adobe Systems Incorporated
+  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+  
+        http://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+  padding-left:40%
+}
+
+.footer-section p {
+    font-size: 1em;
+    margin-bottom: 1rem;
+  padding-left:40%
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 0.5rem;
+   padding-left:40%
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.footer-section img {
+   margin-bottom: 1rem;
+  padding-left:40%;
+  
+}
+
+</style>
+</head>
+<body><footer class="footer">
+    <div class="footer-content">
+
+       <div class="footer-section">
+            <div>
+             	<h4>${properties.text}</h4>
+                <h5>${properties.textOne}</h5>
+                <h5>${properties.textTwo}</h5>
+                <h5>${properties.textThree}</h5>
+                <h5>${properties.textFour}</h5>
+            </div>
+        </div>
+        
+        <div class="footer-section">
+         	<div>
+             	<h4>${properties.textfieldOne}</h4>
+                <h5>${properties.textfieldTwo}</h5>
+                <h5>${properties.textfieldTwo}</h5>
+                <h5>${properties.textfieldFour}</h5>
+                <h5>${properties.textfieldFive}</h5>
+                <h5>${properties.textfieldSix}</h5>
+            </div>
+        </div>
+      <div class="footer-section">
+       	 	<div>
+             	<h4>${properties.field1}</h4>
+                <h5>${properties.field2}</h5>
+                <h5>${properties.field3}</h5>
+                <h5>${properties.field4}</h5>
+            </div>
+        </div>
+
+         <div class="footer-section">
+       	 	<div>
+             	<h4>${properties.text1}</h4>
+                <h5>${properties.text2}</h5>
+                <h5>${properties.text3}</h5>
+                <h5>${properties.text4}</h5>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+      <div>${properties.description}</div>
+    </div>
+</footer>
+</body>

@@ -1,0 +1,165 @@
+<div class="content-wrapper">
+<div class="locations">
+  <h1>${properties.title}</h1>
+
+  ${properties.text}
+  </div>
+  <div class="states">
+    <div class="state-column">
+      <h2>ARIZONA</h2>
+      <p>Phoenix</p>
+      <h2>CALIFORNIA</h2>
+      <p>Los Angeles</p>
+      <p>Orange County</p>
+      <p>Palm Springs</p>
+      <p>Sacramento</p>
+      <p>San Diego</p>
+      <p>San Francisco</p>
+      <p>San Jose</p>
+      <h2>COLORADO</h2>
+      <p>Colorado Springs</p>
+      <p>Denver</p>
+      <p>Fort Collins</p>
+      <h2>CONNECTICUT</h2>
+      <p>New Haven</p>
+    </div>
+    <div class="state-column">
+      <h2>DELAWARE</h2>
+      <p>Wilmington</p>
+      <h2>FLORIDA</h2>
+      <p>Fort Myers</p>
+      <p>Jacksonville</p>
+      <p>Naples</p>
+      <p>Orlando</p>
+      <p>Palm Coast</p>
+      <p>Sarasota</p>
+      <p>Tampa</p>
+      <p>West Palm Beach</p>
+      <h2>GEORGIA</h2>
+      <p>Atlanta</p>
+      <h2>IDAHO</h2>
+      <p>Boise</p>
+      <p>Coeur d'Alene</p>
+    </div>
+    <div class="state-column">
+      <h2>ILLINOIS</h2>
+      <p>Chicago</p>
+      <h2>MARYLAND</h2>
+      <p>Baltimore</p>
+      <h2>MASSACHUSETTS</h2>
+      <p>Boston</p>
+      <h2>MICHIGAN</h2>
+      <p>Detroit</p>
+      <h2>NEVADA</h2>
+      <p>Las Vegas</p>
+      <p>Reno</p>
+      <h2>NEW JERSEY</h2>
+      <p>Central New Jersey</p>
+      <p>Northern New Jersey</p>
+    </div>
+    <div class="state-column">
+      <h2>NEW YORK</h2>
+      <p>Duchess County</p>
+      <p>Long Island</p>
+      <p>New York</p>
+      <p>Westchester</p>
+      <h2>NORTH CAROLINA</h2>
+      <p>Charlotte</p>
+      <p>Raleigh</p>
+      <h2>OREGON</h2>
+      <p>Portland</p>
+      <h2>PENNSYLVANIA</h2>
+      <p>Philadelphia</p>
+    </div>
+    <div class="state-column">
+      <h2>TENNESSEE</h2>
+      <p>Nashville</p>
+      <h2>TEXAS</h2>
+      <p>Austin</p>
+      <p>Dallas-Fort Worth</p>
+      <p>Houston</p>
+      <p>San Antonio</p>
+      <h2>UTAH</h2>
+      <p>Salt Lake City</p>
+      <p>St George</p>
+      <h2>VIRGINIA</h2>
+      <p>Washington, DC</p>
+    </div>
+    <div class="state-column">
+      <h2>PENNSYLVANIA</h2>
+      <p>Philadelphia</p>
+      <h2>SOUTH CAROLINA</h2>
+      <p>Charleston</p>
+      <p>Greenville</p>
+      <p>Hilton Head</p>
+      <p>Myrtle Beach</p>
+    </div>
+    <div class="state-column">
+      <h2>VIRGINIA</h2>
+      <p>Washington, DC</p>
+      <h2>WASHINGTON</h2>
+      <p>Seattle</p>
+      <p>Spokane</p>
+      <p>Vancouver</p>
+    </div>
+ 
+</div>
+  </div>
+  <style>.content-wrapper {
+  display: flex; /* Establishes a flex container */
+  max-width: 1858px; /* Max container width */
+  margin: auto; /* Centers the container */
+  height: auto; /* Adjust height as needed */
+  box-sizing: border-box;
+}
+.locatio, .right-side {
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  height: auto; /* Adjust height as needed, or set a fixed height */
+  padding: 20px; /* Padding inside the boxes */
+  border: 10px solid #ccc; /* Just for visual separation, can be removed or styled */
+  background-color: #f9f9f9; /* Background color, can be changed */
+}
+
+.locations {
+  flex: 0 0 30%;
+  font-family: Arial, sans-serif;
+  margin-top: -200px;
+}
+
+.locations h1 {
+     margin-bottom: 30px;
+    color: #0070cd;
+    font-size: 1.4em;
+    font-weight: 200;
+      font-family: Domaine,Gotham,sans-serif;
+    letter-spacing: .3px;
+}
+
+.locations p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.states {
+ display: flex;
+   justify-content: flex-start;
+ 
+  gap: 0px; /* Space between state groups */
+  flex: 0 0 70% ;
+}
+
+.state-column {
+  width: 20%; /* Adjust to suit the layout, considering the total width minus gaps */
+  font-family: Arial, sans-serif;
+}
+
+.state-column h2 {
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+.state-column p {
+  font-size: 12px;
+  margin-bottom: px;
+}</style>

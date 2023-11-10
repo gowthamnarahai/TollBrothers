@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Search Layout</title>
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('https://cdn.tollbrothers.com/sites/comtollbrotherswww/advantage/search2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:left;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+    color: white;
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.search-section {
+    display: flex;
+    gap: 10px;
+    max-width: 50%;
+}
+
+select, input, button {
+    padding: 10px;
+    border: none;
+}
+
+select, input[type="text"] {
+    flex: 1;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    width: auto;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.divider {
+    width: 5px; /* Increased the thickness */
+    height: 70%;
+    background-color: white;
+    margin: 0 20px;
+}
+
+.expert-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: left;
+    color: #FFFFFF;
+}
+
+.expert-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="content">
+              <h1>${properties.text}</h1>
+                <p>Discover the difference today. As your home search leads you to a community you love,
+                    complete a contact form to schedule an appointment with one of our knowledgeable Sales
+                    Consultants and get details about the home, the area, pricing, and more.</p>
+              <pre>
+                <div class="search-section">
+                    <select>
+                        <option>Select a date</option>
+                    </select>
+                    <input type="text" 
+
+                           placeholder="Community, city, or state">
+                    <button>Search</button>
+                </div>
+            </div>
+              </pre>
+            <div class="divider"></div>
+            <div class="expert-section">
+                <img src="https://cdn.tollbrothers.com/sites/comtollbrotherswww/advantage/osc_head_elise.png">
+                <div>
+                    <h2>${properties.local}</h2>
+                    <p>An Online Sales Consultant can assist you in your home search, answer your
+                        questions about the community, and schedule a virtual appointment.</p>
+                    <button class="advantage_contact__bzZKX">Contact Us</button>
+                  <nav class class="advantage_omniBar_w8yN">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

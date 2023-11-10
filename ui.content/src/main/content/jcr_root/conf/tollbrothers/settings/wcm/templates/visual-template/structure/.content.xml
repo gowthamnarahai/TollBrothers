@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2023-11-09T17:36:31.441+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/tollbrothers/settings/wcm/templates/visual-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="tollbrothers/components/visual-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="tollbrothers/components/container"
+            layout="responsiveGrid">
+            <visual_header
+                jcr:created="{Date}2023-11-09T14:53:37.107+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-11-09T17:36:31.436+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tollbrothers/components/visual-header"
+                heading="Your New Home Starts Here"
+                link1="TollBrothers Advantage"
+                link2="About Us"
+                link3="Contact Us"
+                link4="My Favorites"/>
+            <container
+                jcr:created="{Date}2023-11-07T16:27:41.517+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-11-07T16:27:41.517+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tollbrothers/components/container"
+                editable="{Boolean}true"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

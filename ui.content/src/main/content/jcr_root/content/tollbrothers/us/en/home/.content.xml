@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2023-11-10T15:59:13.133+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/tollbrothers/settings/wcm/templates/visual-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home"
+        sling:resourceType="tollbrothers/components/visual-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="tollbrothers/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2023-11-04T09:50:12.047+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-11-04T09:51:27.489+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tollbrothers/components/container">
+                <visual_banner
+                    jcr:created="{Date}2023-11-05T10:57:42.156+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-09T14:54:21.489+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/visual-banner"
+                    textBtn="LEARN MORE"
+                    textCenter="Limited-time incentives Available Now*"
+                    textSpan="FALL SAVING EVENT"/>
+                <visual_teaser1
+                    jcr:created="{Date}2023-11-05T11:13:11.118+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-09T16:49:19.224+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/visual-teaser1"/>
+                <visual_teaser2_html
+                    jcr:created="{Date}2023-11-05T17:13:01.791+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-05T17:13:01.791+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/visual-teaser2.html"/>
+                <visual_teaser2_html_276229968
+                    jcr:created="{Date}2023-11-05T17:13:13.318+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-05T17:13:13.318+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/visual-teaser2.html"/>
+                <visual_teaser2_html_891476040
+                    jcr:created="{Date}2023-11-05T17:13:44.336+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-05T17:13:44.336+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/visual-teaser2.html"/>
+                <visual_teaser2
+                    jcr:created="{Date}2023-11-06T09:15:44.311+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-09T16:59:21.638+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/visual-teaser2"
+                    textArea1="The Toll Brothers  Builds communities in the heart of where you want to live."
+                    textArea2="You can see it in the details and feel it in the craftsmanship from the moment you walk into a Toll Brothers home: this is where form meets function in exquisite fashion."
+                    textArea3="With your selections from premium products, state-of-the-art appliances, and luxury fixtures and finishes, your Toll Brothers home becomes a showcase for your individual style and preferences."
+                    textArea4="We are here to deliver an experience beyond compare and to exceed your expectations at every turn."
+                    textHeader="The Toll Brothers Advantage"/>
+                <visual_map
+                    jcr:created="{Date}2023-11-06T10:34:38.334+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-09T17:28:42.455+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/visual-map"
+                    textHeader="Toll Brothers builds homes in great locations across the country."
+                    textSpan="Select a location to view our communities."/>
+                <visualmap_names
+                    jcr:created="{Date}2023-11-07T15:22:13.882+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-07T15:22:13.882+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/visualmap-names"/>
+                <visual_footer
+                    jcr:created="{Date}2023-11-09T14:56:19.379+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-09T17:26:26.216+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/visual-footer"
+                    header1="Get To Know Us"
+                    header2="Explore Toll Brothers"
+                    header3="Services"
+                    header4="Account Information"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2023-11-10T15:58:53.788+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/tollbrothers/settings/wcm/templates/advantage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Advantages"
+        sling:resourceType="wcm/foundation/components/page">
+        <root jcr:primaryType="nt:unstructured">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tollbrothers/components/container">
+                <advtext
+                    jcr:created="{Date}2023-11-07T15:02:39.681+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-07T15:02:39.681+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/advtext"/>
+                <text
+                    jcr:created="{Date}2023-11-07T15:05:11.013+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-07T15:05:49.854+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/text"
+                    text="&lt;p>With its 50+ years of experience building luxury homes, its national presence, and its status as a publicly traded Fortune 500 company, Toll Brothers holds a prominent place in the industry with seasoned leadership and strong trade partners. In fact, 2023 marks the 8th year Toll Brothers has been named to FORTUNE magazine's World's Most Admired Companies® list.* You can trust that with Toll Brothers, you are choosing the best in the business, and our impeccable standards are reflected in every home we build.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="11"/>
+                    </cq:responsive>
+                </text>
+                <teaser
+                    jcr:created="{Date}2023-11-07T15:08:07.248+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-09T11:43:23.492+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/teaser"
+                    local="Talk To A Local Expert"
+                    text="Start Your Dream Home"/>
+                <advpara
+                    jcr:created="{Date}2023-11-07T15:10:33.730+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-08T11:29:35.013+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tollbrothers/components/advpara"
+                    text="Simply put, Toll Brothers builds communities in the heart of where you want to live. Whether you want scenic views and access to natural features, or proximity to schools, commuter routes, and entertainment-or all of it and more-our commitment to you is to build communities of luxury homes that deliver just what you're looking for in the most highly desirable areas of the country."
+                    title="Prestigious Locations"/>
+                <responsivegrid
+                    jcr:created="{Date}2023-11-07T15:11:27.288+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-07T15:11:27.288+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="8"/>
+                    </cq:responsive>
+                    <image
+                        jcr:created="{Date}2023-11-09T15:48:16.669+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-09T15:48:42.022+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileName="picture1.jpg"
+                        height="700"
+                        width="750">
+                        <file/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </image>
+                    <text
+                        jcr:created="{Date}2023-11-09T15:49:11.119+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-09T15:49:17.016+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="tollbrothers/components/text"
+                        text="&lt;h2>Distinctive Architecture&lt;/h2>&#xa;&lt;p>You can see it in the details and feel it in the craftsmanship from the moment you walk into a Toll Brothers home: this is where form meets function in exquisite fashion. The sprawling modern farmhouse on an acre of land. The stylish contemporary townhome just steps from every convenience. The perfectly sized home in a dynamic active-adult community. The sleek condominium high-rise in a bustling city. Whatever your vision for your home, Toll Brothers has an extensive selection of architectural designs to suit any lifestyle and life stage.&lt;/p>&#xa;&lt;p>&lt;a href=&quot;https://www.tollbrothers.com/details&quot; title=&quot;Obsession Awaits&quot;>OBSESSION AWAITS&lt;/a>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </text>
+                    <text_551358741
+                        jcr:created="{Date}2023-11-09T15:51:17.974+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-09T15:51:24.872+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="tollbrothers/components/text"
+                        text="&lt;h2>Unrivaled Choice&lt;/h2>&#xa;&lt;p>With your selections from premium products, state-of-the-art appliances, and luxury fixtures and finishes, your Toll Brothers home becomes a showcase for your individual style and preferences. No other builder offers quite the same experience. From our highly personalized and hands-on Design Studio appointments guided by a professional design consultant to our extraordinary architectural elements and thoughtful design, you can be sure that you will love every detail of your new home.&lt;/p>&#xa;&lt;p>&lt;a title=&quot;Unrivaled Choice&quot; href=&quot;https://www.tollbrothers.com/choice&quot;>THE LUXURY OF CHOICE&lt;/a>&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="5"/>
+                        </cq:responsive>
+                    </text_551358741>
+                    <image_236868451
+                        jcr:created="{Date}2023-11-09T15:52:07.442+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-09T15:52:27.870+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileName="picture2.jpg"
+                        height="700"
+                        width="750">
+                        <file/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </image_236868451>
+                    <image_1544224054
+                        jcr:created="{Date}2023-11-09T16:16:17.555+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-09T16:16:37.316+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileName="picture3.jpg"
+                        height="700"
+                        width="750">
+                        <file/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </image_1544224054>
+                    <text_1015816910
+                        jcr:created="{Date}2023-11-09T16:16:58.848+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-09T16:17:04.041+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="tollbrothers/components/text"
+                        text="&lt;h2>Extraordinary Customer Experience&lt;/h2>&#xa;&lt;p>We set out to raise the bar. From the moment you have your first interaction with one of our sales consultants, you are met with the professionalism and thoughtful attention each Toll Brothers associate strives to provide every day. We are here to deliver an experience beyond compare and to exceed your expectations at every turn. That's what makes the Toll Brothers experience truly extraordinary.&lt;/p>&#xa;&lt;p>&lt;a>TAKE A LOOK INSIDE TOLL BROTHERS&lt;/a>&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </text_1015816910>
+                    <text_2101282826
+                        jcr:created="{Date}2023-11-09T16:17:36.838+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-11-09T16:17:59.704+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="tollbrothers/components/text"
+                        text="&lt;p>*From FORTUNE Magazine. ©2023 Fortune Media IP Limited. All rights reserved. Used under license. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse the products or services of, Toll Brothers.&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="6"/>
+                        </cq:responsive>
+                    </text_2101282826>
+                </responsivegrid>
+                <_x0031__1699511337657
+                    jcr:primaryType="nt:unstructured"
+                    behavior="newline"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
